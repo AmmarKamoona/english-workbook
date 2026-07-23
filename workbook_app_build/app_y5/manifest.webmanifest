@@ -1,0 +1,17 @@
+{
+    "name": "Year 5 English Workbook",
+    "short_name": "Year 5 English",
+    "description": "52-week English workbook for Year 5 - Developed by Dr. Ammar Kamoona (PhD, CPEng)",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#F5F8FA",
+    "theme_color": "#2E86AB",
+    "categories": ["education"],
+    "lang": "en-AU",
+    "icons": [
+        { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+        { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    ]
+}
