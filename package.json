@@ -1,0 +1,17 @@
+{
+    "name": "english-workbook-apk-builder",
+    "version": "1.0.0",
+    "description": "Wraps the PWA into an Android APK using Capacitor",
+    "private": true,
+    "scripts": {
+        "prepare:y3": "node prepare.js y3",
+        "prepare:y5": "node prepare.js y5",
+        "build:y3": "npm run prepare:y3 && cap sync android && cd android && ./gradlew assembleDebug",
+        "build:y5": "npm run prepare:y5 && cap sync android && cd android && ./gradlew assembleDebug"
+    },
+    "devDependencies": {
+        "@capacitor/cli": "^6.0.0",
+        "@capacitor/core": "^6.0.0",
+        "@capacitor/android": "^6.0.0"
+    }
+}

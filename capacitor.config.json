@@ -1,0 +1,12 @@
+{
+    "appId": "com.ammarkamoona.workbook",
+    "appName": "English Workbook",
+    "webDir": "www",
+    "server": {
+        "androidScheme": "https"
+    },
+    "android": {
+        "allowMixedContent": false,
+        "backgroundColor": "#FFF9F0"
+    }
+}
